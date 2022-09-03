@@ -14,4 +14,13 @@ ActiveAdmin.register_page "Calendar" do
   breadcrumb do
     ['hoge', 'calendar']
   end
+
+  action_item :view_site do
+    link_to "View Site", "/"
+  end
+
+  action_item :view_site2 do
+  'a'
+
+  end
 end
